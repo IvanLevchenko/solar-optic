@@ -105,14 +105,14 @@ function CalculatorSlide(): JSX.Element {
   };
 
   return (
-    <div className="flex flex-col items-center">
-      <div className="flex flex-col items-center gap-4 mt-16">
+    <div className="flex flex-col items-center h-full">
+      <div className="flex flex-col items-center gap-4 mt-10">
         <div className="text-3xl">{localization.title[language]}</div>
         <div className="text-2xl">{localization.subtitle[language]}</div>
       </div>
-      <div className="flex justify-center w-full gap-10 2xl:gap-16 xl:px-24 mt-10 2xl:mt-10 2xl:min-h-[600px] relative">
+      <div className="flex justify-center w-full gap-10 2xl:gap-16 xl:px-24 mt-10 2xl:mt-10 h-1/2 relative">
         <div className="bg-accent-yellow absolute top-0 left-0 rounded-full w-[400px] 2xl:w-[700px] blur-[100px] h-[700px] z-[-1]"></div>
-        <div className="flex flex-col items-center shadow-lg z-1 pb-4 h-[400px] 2xl:h-[550px] swiper-no-swiping overflow-y-scroll 2xl:overflow-y-clip overflow-x-hidden xl:w-1/2 2xl:w-[700px] relative bg-white rounded-3xl">
+        <div className="flex flex-col items-center shadow-lg z-1 pb-4 h-full max-h-[600px] max-[1920px]:overflow-y-scroll max-[1920px]:overflow-x-clip swiper-no-swiping xl:w-1/2 2xl:w-[700px] relative bg-white rounded-3xl">
           <div className="p-12 flex flex-col items-center">
             <div className="text-2xl">
               {localization.calculator.title[language]}
@@ -222,7 +222,7 @@ function CalculatorSlide(): JSX.Element {
           </div>
         </div>
         <div className="bg-accent-yellow absolute top-0 right-[10%] rounded-full w-[400px] blur-[100px] h-[400px] z-[-1]"></div>
-        <div className="shadow-lg z-1 relative bg-white p-2 h-[400px] 2xl:h-[550px] swiper-no-swiping overflow-y-scroll 2xl:overflow-y-clip overflow-x-hidden xl:w-1/2 2xl:w-[700px] rounded-3xl">
+        <div className="shadow-lg z-1 relative bg-white p-2 h-full max-h-[600px] max-[1920px]:overflow-y-scroll max-[1920px]:overflow-x-clip swiper-no-swiping xl:w-1/2 2xl:w-[700px] rounded-3xl">
           <div className="flex flex-col p-12 items-center">
             <div className="text-2xl pb-10">
               {localization.results.title[language]}
@@ -286,7 +286,7 @@ function CalculatorSlide(): JSX.Element {
           </div>
         </div>
       </div>
-      <div className="mt-10">
+      <div className="mt-4">
         <Button
           text={localization.getResultsButton[language]}
           onClick={handleCalculate}

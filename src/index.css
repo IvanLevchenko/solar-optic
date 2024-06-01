@@ -8,3 +8,8 @@ body,
 #app > div {
   height: 100%;
 }
+
+body {
+  overflow: hidden;
+  background: #f2f2f2;
+}

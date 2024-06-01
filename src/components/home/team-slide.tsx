@@ -80,14 +80,14 @@ function TeamSlide(): JSX.Element {
   return (
     <div className="p-6 w-[1200px] h-full mx-auto relative">
       <div className="bg-accent-yellow absolute top-[20%] left-[-10%] w-[400px] h-[400px] rounded-full blur-[120px] z-[-1]"></div>
-      <div className="mt-16 h-full">
-        <div className="text-3xl text-center mb-10">
+      <div className="mt-6 h-full">
+        <div className="text-3xl text-center mb-2">
           {localization.title[language]}
         </div>
         <Swiper
           ref={swiperRef}
           slidesPerView={3.5}
-          className="mySwiper h-1/2 z-5"
+          className="mySwiper h-[470px] max-[1920px]:h-[445px] z-5"
         >
           {members.map((member, index) => {
             return (
@@ -142,7 +142,7 @@ function TeamMemberCard(props: TeamMemberCardProps): JSX.Element {
   };
 
   return (
-    <div className="shadow-xl object-fill flex flex-col justify-start w-[300px] h-[410px] bg-white rounded-3xl p-8">
+    <div className="shadow-xl object-fill flex flex-col justify-start w-[300px] h-[410px] max-[1920px]:scale-90 bg-white rounded-3xl p-8">
       <img
         src={props.memberImage}
         className="h-[240px] rounded-3xl"

@@ -16,25 +16,29 @@ function ProsSlide(): JSX.Element {
 
   return (
     <div className="flex h-screen px-36 justify-evenly">
-      <div className="flex flex-col gap-10 w-[70%] max-w-[766px] pt-52">
-        <div className="text-3xl">{parse(localization.title[language])}</div>
-        <div className="text-2xl">{parse(localization.subtitle[language])}</div>
+      <div className="flex flex-col gap-10 w-[70%] max-w-[766px] pt-16">
+        <div className="text-2xl 2xl:text-3xl">
+          {parse(localization.title[language])}
+        </div>
+        <div className="text-xl 2xl:text-2xl">
+          {parse(localization.subtitle[language])}
+        </div>
         <div className="flex flex-col gap-4">
           <div className="flex items-center gap-4">
             <img src={sunImage} alt="Sun icon" />
-            <div className="text-2xl">
+            <div className="text-xl 2xl:text-2xl">
               {localization.points.first[language]}
             </div>
           </div>
           <div className="flex items-center gap-4">
             <img src={sunImage} alt="Sun icon" />
-            <div className="text-2xl">
+            <div className="text-xl 2xl:text-2xl">
               {localization.points.second[language]}
             </div>
           </div>
           <div className="flex items-center gap-4">
             <img src={sunImage} alt="Sun icon" />
-            <div className="text-2xl">
+            <div className="text-xl 2xl:text-2xl">
               {localization.points.third[language]}
             </div>
           </div>
@@ -44,9 +48,9 @@ function ProsSlide(): JSX.Element {
           text={localization.continuteButton[language]}
         />
       </div>
-      <div className="relative">
-        <img src={bulbImage} alt="Bulb" />
-        <div className="absolute top-[34%] z-[-1] left-[-46px] w-[400px] h-[400px] blur-3xl rounded-full bg-accent-yellow"></div>
+      <div className="relative h-[80%] flex items-center">
+        <img src={bulbImage} alt="Bulb" className="h-full" />
+        <div className="absolute bottom-0 left-[-20%] z-[-1] w-[140%] h-[60%] blur-3xl rounded-full bg-accent-yellow"></div>
       </div>
     </div>
   );

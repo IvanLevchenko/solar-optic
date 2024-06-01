@@ -25,8 +25,8 @@ function PresentationSlide(): JSX.Element {
           className="ml-[100px] h-[80%] absolute top-[20%] left-[55%] translate-x-[-100%] z-5"
         ></img>
       </div>
-      <div className="relative flex flex-col h-full mt-[270px] w-full z-5">
-        <div className="max-w-[590px] mt-[60px]">
+      <div className="relative flex flex-col justify-top h-full mt-[10%] w-full z-5">
+        <div className="max-w-[590px] mt-[20px] 2xl:mt-[60px]">
           <h1 className="text-[54px] leading-[60px] font-bold tracking-wide">
             {parse(slideLocalization.title[language])}
           </h1>

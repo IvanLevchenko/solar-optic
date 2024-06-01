@@ -28,7 +28,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "http://IvanLevchenko.github.io/solar-optic",
+  "homepage": "https://ivanlevchenko.github.io/solar-optic/",
   "eslintConfig": {
     "extends": [
       "react-app",
