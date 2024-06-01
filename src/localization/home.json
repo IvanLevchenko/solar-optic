@@ -1,0 +1,253 @@
+{
+  "header": {
+    "product": {
+      "en": "Product",
+      "ua": "Продукт"
+    },
+    "blog": {
+      "en": "Blog",
+      "ua": "Блог"
+    },
+    "aboutUs": {
+      "en": "About us",
+      "ua": "Про нас"
+    }
+  },
+  "presentationSlide": {
+    "title": {
+      "en": "Solar Optic - a system for <span className=\"text-base-blue\">concentrating</span> and <span className=\"text-base-blue\" >transmitting sunlight</span>  into a building",
+      "ua": "Solar Optic - система для <span className=\"text-base-blue\">концентрації</span> та <span className=\"text-base-blue\">передачі сонячного</span> світла в приміщення"
+    },
+    "subtitle": {
+      "en": "We help businesses reduce electricity consumption during daytime, saving money on energy costs and carbon taxes.",
+      "ua": "Ми допомагаємо бізнесу зменшити споживання електроенергії в денний час, заощаджуючи кошти на енергоносії та податки на викиди вуглецевого газу."
+    },
+    "getStartedButton": {
+      "en": "Get started.",
+      "ua": "Розпочати"
+    },
+    "viewMoreButton": {
+      "en": "View more.",
+      "ua": "Дивитися більше"
+    }
+  },
+  "prosSlide": {
+    "title": {
+      "en": "<span className=\"text-base-blue\">45%</span> of total electricity consumption in industrial premises is <span className=\"text-base-blue\">used for illumination.</span>",
+      "ua": "<span className=\"text-base-blue\">45%</span> сумарного споживання електроенергії в індустріальних приміщеннях <span className=\"text-base-blue\">використовується для</span> його <span className=\"text-base-blue\">освітлення.</span>"
+    },
+    "subtitle": {
+      "en": "As a result, logistic businesses in Ukraine and Europe face the following problems:",
+      "ua": "Як наслідок, бізнес в Україні та Європі має наступні проблеми:"
+    },
+    "points": {
+      "first": {
+        "en": "A doubling of electricity prices, which leads to higher prices for products or services",
+        "ua": "Вдвічі збільшення цін на електроенергію, що призводить до підвищення цін на продукти або послуги"
+      },
+      "second": {
+        "en": "Mandatory carbon tax, which will reach 100 euros per tonne in a year and a half",
+        "ua": "Обов’язковий вуглецевий податок, що через півтора роки сягне 100 євро за кожну тонну"
+      },
+      "third": {
+        "en": "Unstable business operations during blackouts",
+        "ua": "Нестабільне функціонування бізнесу під час блекаутів"
+      }
+    },
+    "continuteButton": {
+      "en": "Continue",
+      "ua": "Продовжити"
+    }
+  },
+  "benefitsSlide": {
+    "title": {
+      "en": "What are the <span className=\"text-base-blue\">benefits</span> of using our product?",
+      "ua": "Які <span className=\"text-base-blue\">бенефіти</span> ви отримаєте при використанні нашого продукту?"
+    },
+    "points": {
+      "first": {
+        "en": "Reduction of electricity consumption by up to 80%, which is used for illumination",
+        "ua": "Зменшення споживання електро-енергії до 80%, що використовується для освітлення приміщень"
+      },
+      "second": {
+        "en": "Partial independence from centralised power supply",
+        "ua": "Часткова незалежність від централізованого електропостачання"
+      },
+      "third": {
+        "en": "Reduction of carbon tax payments",
+        "ua": "Зменшення сплати вуглецевого податку "
+      }
+    },
+    "continueButton": {
+      "en": "Continue",
+      "ua": "Продовжити"
+    }
+  },
+  "calculatorSlide": {
+    "title": {
+      "en": "Interested in technology?",
+      "ua": "Зацікавила технологія?"
+    },
+    "subtitle": {
+      "en": "Calculate your savings",
+      "ua": "Прорахуй свої заощадження "
+    },
+    "calculator": {
+      "title": {
+        "en": "INITIAL DATA",
+        "ua": "ПОЧАТКОВІ ДАНІ"
+      },
+      "subtitle": {
+        "en": "Enter the initial data",
+        "ua": "Введіть початкові дані"
+      },
+      "country": {
+        "description": {
+          "en": "Country",
+          "ua": "Країна"
+        },
+        "tooltip": {
+          "en": "* data taken for the year 2024",
+          "ua": "* дані взяті за 2024 рік"
+        }
+      },
+      "sunHoursPerYear": {
+        "description": {
+          "en": "Sun hours per year",
+          "ua": "Сонячні години на рік"
+        },
+        "tooltip": {
+          "en": "The amount of sun hours per year (data taken for the year 2024)",
+          "ua": "Кількість сонячних годин на рік (дані взяті за 2024 рік)"
+        }
+      },
+      "pricePerkW": {
+        "description": {
+          "en": "Price per kW/h, ct",
+          "ua": "Ціна за кВт/год, центи"
+        },
+        "tooltip": {
+          "en": "The price for kW/h in cents + electricity tax (data taken for the year 2024)",
+          "ua": "Ціна за кВт*год в центах + податок на електроенергію (дані взяті за 2024 рік)"
+        }
+      },
+      "warehouseArea": {
+        "description": {
+          "en": "Area of warehouse, m2",
+          "ua": "Площа складу, м2"
+        },
+        "tooltip": {
+          "en": "The area of the building in square meters",
+          "ua": "Площа будівлі в квадратних метрах"
+        }
+      },
+      "lampsAmount": {
+        "description": {
+          "en": "Amount of lamps, pieces",
+          "ua": "Кількість ламп, шт."
+        },
+        "tooltip": {
+          "en": "The amount of lamps in building",
+          "ua": "Кількість світильників у будівлі"
+        }
+      },
+      "oneLampConsumption": {
+        "description": {
+          "en": "Counsumption of 1 lamp, W",
+          "ua": "Споживання 1 лампи, Вт"
+        },
+        "tooltip": {
+          "en": "The consumption of one lamp in Watts (W)",
+          "ua": "Споживання однієї лампи у Ватах (Вт)"
+        }
+      },
+      "workingHoursPerDay": {
+        "description": {
+          "en": "Working hours per day",
+          "ua": "Робочі години на день"
+        },
+        "tooltip": {
+          "en": "The amount of working hours per day",
+          "ua": "Кількість робочих годин на день"
+        }
+      },
+      "workingDaysPerYear": {
+        "description": {
+          "en": "Working days per year",
+          "ua": "Кількість робочих днів на рік"
+        },
+        "tooltip": {
+          "en": "The amount of working days per year",
+          "ua": "Кількість робочих днів на рік"
+        }
+      }
+    },
+    "results": {
+      "title": {
+        "en": "CALCULATION DATA",
+        "ua": "РОЗРАХУНКОВІ ДАНІ"
+      },
+      "electricitySavings": {
+        "en": "Total electricity savings, kWh/a",
+        "ua": "Загальна економія електроенергії, кВт∙год/рік"
+      },
+      "euroSavings": {
+        "en": "Total savings in euros",
+        "ua": "Загальна економія в євро"
+      },
+      "co2Savings": {
+        "en": "CO2 savings in total in € ",
+        "ua": "Загальна економія CO2 в євро"
+      },
+      "totalSavings": {
+        "en": "Total savings in %",
+        "ua": "Загальна економія у %"
+      },
+      "totalCO2Savings": {
+        "en": "Total CO2 savings in tonnes",
+        "ua": "Загальна економія CO2 в тоннах"
+      },
+      "roi": {
+        "en": "ROI (return of investments)",
+        "ua": "ROI (повернення інвестицій)"
+      }
+    },
+    "getResultsButton": {
+      "en": "Get results",
+      "ua": "Отримати результат"
+    }
+  },
+  "teamSlide": {
+    "title": {
+      "en": "Our development team",
+      "ua": "Наша команда розробників"
+    }
+  },
+  "members": [
+    {
+      "title": { "en": "Fullstack developer", "ua": "Fullstack developer" },
+      "name": { "en": "Ivan Levchenko", "ua": "Іван Левченко" },
+      "socialLink": "https://www.linkedin.com/in/ivan-levchenko-688956245/"
+    },
+    {
+      "title": { "en": "Product Manager", "ua": "Product Manager" },
+      "name": { "en": "Yelyzaveta Kolodiazhna", "ua": "Єлизавета Колодяжна" },
+      "socialLink": "https://www.linkedin.com/in/yelyzaveta-kolodiazhna/"
+    },
+    {
+      "title": { "en": "UI/UX Designer", "ua": "UI/UX Designer" },
+      "name": { "en": "Anastasiia Levchenko", "ua": "Анастасія Левченко" },
+      "socialLink": "https://www.linkedin.com/in/anastasiia-levchenko-ba8489294/"
+    },
+    {
+      "title": { "en": "Technical specialist", "ua": "Technical specialist" },
+      "name": { "en": "Mykola Iakymchuk", "ua": "Микола Якимчук" },
+      "socialLink": "mailto:mykolaiakymchuk2016@gmail.com"
+    },
+    {
+      "title": { "en": "Team lead", "ua": "Team lead" },
+      "name": { "en": "Mariia Alipatova", "ua": "Марія Аліпатова" },
+      "socialLink": "https://www.linkedin.com/in/mariia-alipatova-b978b219b/"
+    }
+  ]
+}

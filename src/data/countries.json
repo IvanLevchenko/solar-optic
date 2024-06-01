@@ -1,0 +1,254 @@
+[
+  {
+    "country": {
+      "en": "",
+      "ua": ""
+    },
+    "sunHoursPerYear": 0,
+    "pricePerKW": 0,
+    "electricityTax": 0
+  },
+  {
+    "country": {
+      "en": "Ukraine",
+      "ua": "Україна"
+    },
+    "sunHoursPerYear": 1850,
+    "pricePerKW": 5,
+    "electricityTax": 1
+  },
+  {
+    "country": {
+      "en": "Poland",
+      "ua": "Польща"
+    },
+    "sunHoursPerYear": 1680,
+    "pricePerKW": 15,
+    "electricityTax": 3
+  },
+  {
+    "country": {
+      "en": "Latvia",
+      "ua": "Латвія"
+    },
+    "sunHoursPerYear": 1820,
+    "pricePerKW": 15,
+    "electricityTax": 5
+  },
+  {
+    "country": {
+      "en": "Lithuania",
+      "ua": "Литва"
+    },
+    "sunHoursPerYear": 1870,
+    "pricePerKW": 15,
+    "electricityTax": 5
+  },
+  {
+    "country": {
+      "en": "Estonia",
+      "ua": "Естонія"
+    },
+    "sunHoursPerYear": 1760,
+    "pricePerKW": 16,
+    "electricityTax": 5
+  },
+  {
+    "country": {
+      "en": "Finland",
+      "ua": "Фінляндія"
+    },
+    "sunHoursPerYear": 1900,
+    "pricePerKW": 9,
+    "electricityTax": 16
+  },
+  {
+    "country": {
+      "en": "Norway",
+      "ua": "Норвегія"
+    },
+    "sunHoursPerYear": 1640,
+    "pricePerKW": 6,
+    "electricityTax": 15
+  },
+  {
+    "country": {
+      "en": "Sweden",
+      "ua": "Швеція"
+    },
+    "sunHoursPerYear": 1700,
+    "pricePerKW": 6,
+    "electricityTax": 15
+  },
+  {
+    "country": {
+      "en": "Britain",
+      "ua": "Британія"
+    },
+    "sunHoursPerYear": 1500,
+    "pricePerKW": 40,
+    "electricityTax": 19
+  },
+  {
+    "country": {
+      "en": "France",
+      "ua": "Франція"
+    },
+    "sunHoursPerYear": 1840,
+    "pricePerKW": 13,
+    "electricityTax": 14
+  },
+  {
+    "country": {
+      "en": "Germany",
+      "ua": "Німеччина"
+    },
+    "sunHoursPerYear": 1770,
+    "pricePerKW": 20,
+    "electricityTax": 17
+  },
+  {
+    "country": {
+      "en": "Spain",
+      "ua": "Іспанія"
+    },
+    "sunHoursPerYear": 3000,
+    "pricePerKW": 15,
+    "electricityTax": 5
+  },
+  {
+    "country": {
+      "en": "Portugal",
+      "ua": "Португалія"
+    },
+    "sunHoursPerYear": 3020,
+    "pricePerKW": 15,
+    "electricityTax": 6
+  },
+  {
+    "country": {
+      "en": "Italy",
+      "ua": "Італія"
+    },
+    "sunHoursPerYear": 2700,
+    "pricePerKW": 17,
+    "electricityTax": 4
+  },
+  {
+    "country": {
+      "en": "Croatia",
+      "ua": "Хорватія"
+    },
+    "sunHoursPerYear": 1810,
+    "pricePerKW": 12,
+    "electricityTax": 3
+  },
+  {
+    "country": {
+      "en": "Bulgaria",
+      "ua": "Болгарія"
+    },
+    "sunHoursPerYear": 2050,
+    "pricePerKW": 12,
+    "electricityTax": 3
+  },
+  {
+    "country": {
+      "en": "Slovenia",
+      "ua": "Словенія"
+    },
+    "sunHoursPerYear": 2100,
+    "pricePerKW": 11,
+    "electricityTax": 3
+  },
+  {
+    "country": {
+      "en": "Slovakia",
+      "ua": "Словаччина"
+    },
+    "sunHoursPerYear": 2050,
+    "pricePerKW": 11,
+    "electricityTax": 3
+  },
+  {
+    "country": {
+      "en": "Romania",
+      "ua": "Румунія"
+    },
+    "sunHoursPerYear": 2230,
+    "pricePerKW": 13,
+    "electricityTax": 6
+  },
+  {
+    "country": {
+      "en": "Hungary",
+      "ua": "Угорщина"
+    },
+    "sunHoursPerYear": 1850,
+    "pricePerKW": 15,
+    "electricityTax": 9
+  },
+  {
+    "country": {
+      "en": "Denmark",
+      "ua": "Данія"
+    },
+    "sunHoursPerYear": 1600,
+    "pricePerKW": 45,
+    "electricityTax": 18
+  },
+  {
+    "country": {
+      "en": "Greece",
+      "ua": "Греція"
+    },
+    "sunHoursPerYear": 3000,
+    "pricePerKW": 19,
+    "electricityTax": 3
+  },
+  {
+    "country": {
+      "en": "Netherlands",
+      "ua": "Нідерланди"
+    },
+    "sunHoursPerYear": 1570,
+    "pricePerKW": 32,
+    "electricityTax": 9
+  },
+  {
+    "country": {
+      "en": "Switzerland",
+      "ua": "Швейцарія"
+    },
+    "sunHoursPerYear": 2040,
+    "pricePerKW": 19,
+    "electricityTax": 20
+  },
+  {
+    "country": {
+      "en": "Austria",
+      "ua": "Австрія"
+    },
+    "sunHoursPerYear": 1900,
+    "pricePerKW": 22,
+    "electricityTax": 8
+  },
+  {
+    "country": {
+      "en": "Belgium",
+      "ua": "Бельгія"
+    },
+    "sunHoursPerYear": 1590,
+    "pricePerKW": 23,
+    "electricityTax": 11
+  },
+  {
+    "country": {
+      "en": "Czechia",
+      "ua": "Чехія"
+    },
+    "sunHoursPerYear": 1902,
+    "pricePerKW": 17,
+    "electricityTax": 5
+  }
+]
