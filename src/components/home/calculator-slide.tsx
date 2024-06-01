@@ -106,13 +106,13 @@ function CalculatorSlide(): JSX.Element {
 
   return (
     <div className="flex flex-col items-center">
-      <div className="flex flex-col items-center gap-4 mt-24">
+      <div className="flex flex-col items-center gap-4 mt-16">
         <div className="text-3xl">{localization.title[language]}</div>
         <div className="text-2xl">{localization.subtitle[language]}</div>
       </div>
-      <div className="flex justify-center w-full gap-16 px-80 mt-20 min-h-[600px] relative">
-        <div className="flex flex-col items-center w-2/5 shadow-lg z-1 relative bg-white rounded-3xl">
-          <div className="bg-accent-yellow absolute top-0 left-0 rounded-full w-[700px] blur-[100px] h-[700px] z-[-1]"></div>
+      <div className="flex justify-center w-full gap-10 2xl:gap-16 xl:px-24 mt-10 2xl:mt-10 2xl:min-h-[600px] relative">
+        <div className="bg-accent-yellow absolute top-0 left-0 rounded-full w-[400px] 2xl:w-[700px] blur-[100px] h-[700px] z-[-1]"></div>
+        <div className="flex flex-col items-center shadow-lg z-1 pb-4 h-[400px] 2xl:h-[550px] swiper-no-swiping overflow-y-scroll 2xl:overflow-y-clip overflow-x-hidden xl:w-1/2 2xl:w-[700px] relative bg-white rounded-3xl">
           <div className="p-12 flex flex-col items-center">
             <div className="text-2xl">
               {localization.calculator.title[language]}
@@ -121,7 +121,7 @@ function CalculatorSlide(): JSX.Element {
               {localization.calculator.subtitle[language]}
             </div>
           </div>
-          <div className="flex flex-col items-end w-full pr-24 pb-4">
+          <div className="flex flex-col items-end w-full xl:pr-6 pb-4">
             <div>
               <Dropdown
                 onChange={handleSelectCountry}
@@ -221,8 +221,8 @@ function CalculatorSlide(): JSX.Element {
             </div>
           </div>
         </div>
-        <div className="w-2/5 shadow-lg z-1 relative bg-white rounded-3xl">
-          <div className="bg-accent-yellow absolute top-0 right-[-20%] rounded-full w-[400px] blur-[100px] h-[400px] z-[-1]"></div>
+        <div className="bg-accent-yellow absolute top-0 right-[10%] rounded-full w-[400px] blur-[100px] h-[400px] z-[-1]"></div>
+        <div className="shadow-lg z-1 relative bg-white p-2 h-[400px] 2xl:h-[550px] swiper-no-swiping overflow-y-scroll 2xl:overflow-y-clip overflow-x-hidden xl:w-1/2 2xl:w-[700px] rounded-3xl">
           <div className="flex flex-col p-12 items-center">
             <div className="text-2xl pb-10">
               {localization.results.title[language]}

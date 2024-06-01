@@ -38,7 +38,7 @@ function Dropdown(props: Props): JSX.Element {
       </div>
       <p>{props.description}</p>
       <select
-        className="w-[300px] h-[40px] cursor-pointer appearance-none ml-8 bg-background-gray rounded-3xl indent-4 outline-none"
+        className="w-[200px] 2xl:w-[300px] h-[40px] cursor-pointer appearance-none ml-8 bg-background-gray rounded-3xl indent-4 outline-none"
         onChange={handleChange}
       >
         {countries.map(({ country }, index) => {

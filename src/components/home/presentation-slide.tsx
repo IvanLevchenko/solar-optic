@@ -7,6 +7,7 @@ import { LanguageContext } from "../../context/language-context";
 import viewMoreArrow from "../../assets/viewMoreArrow.png";
 import Button from "../button";
 import { SwiperContext } from "../../context/swiper-context";
+import { Link } from "react-router-dom";
 
 function PresentationSlide(): JSX.Element {
   const { language } = useContext(LanguageContext);
@@ -39,8 +40,10 @@ function PresentationSlide(): JSX.Element {
             onClick={slideNext}
           />
           <div className="flex w-[160px] items-center text-xl gap-2">
-            {localization.presentationSlide.viewMoreButton[language]}
-            <img src={viewMoreArrow} alt="More arrow" />
+            <Link to="/blog" className="flex items-center text-xl gap-2">
+              {localization.presentationSlide.viewMoreButton[language]}
+              <img src={viewMoreArrow} alt="More arrow" />
+            </Link>
           </div>
         </div>
         <div className="absolute w-[50%] h-[50%] rounded-full bg-accent-yellow blur-[150px] top-[35%] translate-y-[-50%] z-[-1] left-[15%]"></div>

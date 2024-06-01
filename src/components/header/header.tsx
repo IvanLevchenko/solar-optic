@@ -3,6 +3,7 @@ import LanguageSwitcher from "./language-switcher";
 import Logo from "./logo";
 import { LanguageContext } from "../../context/language-context";
 import homeLocalization from "../../localization/home.json";
+import { Link } from "react-router-dom";
 
 type Props = {
   slideToTop: () => void;
@@ -24,8 +25,8 @@ function Header(props: Props): JSX.Element {
           >
             {homeLocalization.header.product[language]}
           </div>
-          <div className="text-xl">
-            {homeLocalization.header.blog[language]}
+          <div className="text-xl cursor-pointer">
+            <Link to="/blog">{homeLocalization.header.blog[language]}</Link>
           </div>
           <div
             className="text-xl cursor-pointer hover:text-base-blue"

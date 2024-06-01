@@ -31,15 +31,15 @@ function BenefitsSlide(): JSX.Element {
           {parse(localization.title[language])}
         </div>
         <div className="flex flex-col gap-6">
-          <div className="flex text-3xl items-center gap-3">
+          <div className="flex md:2xl  2xl:text-3xl items-center gap-3">
             <img src={sunIcon} alt="Sun icon" />
             {localization.points.first[language]}
           </div>
-          <div className="flex text-3xl items-center gap-3">
+          <div className="flex  md:2xl xl:text-2xl 2xl:text-3xl items-center gap-3">
             <img src={sunIcon} alt="Sun icon" />
             {localization.points.second[language]}
           </div>
-          <div className="flex text-3xl items-center gap-3">
+          <div className="flex  md:2xl xl:text-2xl 2xl:text-3xl  items-center gap-3">
             <img src={sunIcon} alt="Sun icon" />
             {localization.points.third[language]}
           </div>

@@ -40,13 +40,13 @@ function Input(props: Props): JSX.Element {
       <div
         className={`${
           isHovered ? "opacity-1" : "opacity-0"
-        } left-[101%] w-fit z-[100] text-nowrap absolute transition-opacity ease-in-out bg-black right-[-50px] rounded-md bg-opacity-65 p-1 px-2 text-white`}
+        } left-[101%] w-fit z-[100000] text-nowrap absolute transition-opacity ease-in-out bg-black right-[-50px] rounded-md bg-opacity-65 p-1 px-2 text-white`}
       >
         {props.tooltip}
       </div>
       <p>{props.description}</p>
       <input
-        className="w-[300px] h-[40px] cursor-pointer ml-8 bg-background-gray rounded-3xl indent-4 outline-none"
+        className="w-[200px] 2xl:w-[300px] h-[40px] cursor-pointer ml-8 bg-background-gray rounded-3xl indent-4 outline-none"
         onChange={handleChange}
         type={props.type}
         min={0}
